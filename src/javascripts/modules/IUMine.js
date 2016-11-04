@@ -1,1 +1,6 @@
-$('body.controller-projects #content .splitcontentleft ul').first().addClass('sub-projects');
+var PurpleMine = PurpleMine || {};
+
+PurpleMine.IUMine = (function()
+{
+
+});
