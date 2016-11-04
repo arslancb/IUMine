@@ -1,0 +1,1 @@
+$('body.controller-projects #content .splitcontentleft ul').first().addClass('sub-projects');
