@@ -10,9 +10,9 @@ $(function()
 
 	$('body.controller-projects #content .splitcontentleft ul').first().addClass('sub-projects');
 
-	var sub_projects_html = $('.sub-projects li').html();
+	var sub_projects_html = $('.sub-projects li').first().html();
 
-	$('.sub-projects li').html( sub_projects_html.replace(/a>, /g,'a>') );
+	$('.sub-projects li').first().html( sub_projects_html.replace(/a>, /g,'a>') );
 });
 
 
