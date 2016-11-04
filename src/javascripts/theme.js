@@ -10,6 +10,7 @@ $(function()
 
 	$('body.controller-projects #content .splitcontentleft ul').first().addClass('sub-projects');
 
+	$('.sub-projects li').html( $('.sub-projects li').html().replace('a>, ','a>') );
 });
 
 
