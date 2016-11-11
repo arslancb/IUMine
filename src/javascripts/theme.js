@@ -12,6 +12,7 @@ $(function()
 
 	var sub_projects_html = $('.sub-projects li').first().html();
 
+	if(sub_projects_html)
 	$('.sub-projects li').first().html( sub_projects_html.replace(/a>, /g,'a>') );
 });
 
